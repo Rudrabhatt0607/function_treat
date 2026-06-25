@@ -1,4 +1,4 @@
-# -------------------------------
+
 # Employee Management System
 # Demonstrates:
 # Constructor
@@ -11,7 +11,7 @@
 # super()
 # issubclass()
 # Menu Driven Program
-# -------------------------------
+
 
 
 class Employee:
@@ -60,9 +60,8 @@ class Employee:
         print("Salary      :", self.__salary)
 
 
-# -------------------------------------
+
 # Manager Class
-# -------------------------------------
 
 class Manager(Employee):
 
@@ -90,9 +89,9 @@ class Manager(Employee):
         print("Department  :", self.department)
 
 
-# -------------------------------------
+
 # Developer Class
-# -------------------------------------
+
 
 class Developer(Employee):
 
@@ -120,9 +119,9 @@ class Developer(Employee):
         print("Language    :", self.programming_language)
 
 
-# -------------------------------------
+
 # Main Program
-# -------------------------------------
+
 
 employee = None
 manager = None
@@ -144,9 +143,9 @@ while True:
 
     choice = int(input("\nEnter your choice : "))
 
-    # --------------------------------
+    
     # Create Employee
-    # --------------------------------
+    
 
     if choice == 1:
 
@@ -168,9 +167,9 @@ while True:
         print("\nEmployee Created Successfully")
 
 
-    # --------------------------------
+    
     # Create Manager
-    # --------------------------------
+    
 
     elif choice == 2:
 
@@ -195,9 +194,9 @@ while True:
         print("\nManager Created Successfully")
 
 
-    # --------------------------------
+    
     # Create Developer
-    # --------------------------------
+    
 
     elif choice == 3:
 
@@ -222,9 +221,9 @@ while True:
         print("\nDeveloper Created Successfully")
 
 
-    # --------------------------------
+    
     # Show Employee Details
-    # --------------------------------
+    
 
     elif choice == 4:
 
@@ -237,9 +236,9 @@ while True:
             print("\nNo Employee Found")
 
 
-    # --------------------------------
+    
     # Show Manager Details
-    # --------------------------------
+    
 
     elif choice == 5:
 
@@ -252,9 +251,9 @@ while True:
             print("\nNo Manager Found")
 
 
-    # --------------------------------
+    
     # Show Developer Details
-    # --------------------------------
+    
 
     elif choice == 6:
 
@@ -267,9 +266,9 @@ while True:
             print("\nNo Developer Found")
 
 
-    # --------------------------------
+    
     # issubclass()
-    # --------------------------------
+    
 
     elif choice == 7:
 
@@ -286,9 +285,9 @@ while True:
         )
 
 
-    # --------------------------------
+    
     # Exit
-    # --------------------------------
+    
 
     elif choice == 8:
 
